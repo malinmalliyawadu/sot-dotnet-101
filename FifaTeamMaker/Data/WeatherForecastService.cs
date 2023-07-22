@@ -1,4 +1,4 @@
-namespace BlazorApp.Data;
+namespace FifaTeamMaker.Data;
 
 public class WeatherForecastService
 {

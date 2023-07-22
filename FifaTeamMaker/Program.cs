@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using BlazorApp.Data;
+using FifaTeamMaker.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
