@@ -4,12 +4,14 @@
 
 <PageTitle>Fifa Team Builder</PageTitle>
 
-<h1 class="text-slate-900 font-extrabold text-6xl tracking-tight text-center mb-12">
-    Fifa Team Builder</h1>
+<h1 class=" font-extrabold text-9xl tracking-tight mb-16">
+    <span class="text-slate-700 text-opacity-40">Fifa Team Builder</span>
+    ⚽️
+</h1>
 
 <div class="flex justify-between gap-12">
     <div class="w-6/12">
-        <h2 class="text-slate-900 font-extrabold text-3xl tracking-tight text-center pb-6">Available players</h2>
+        <h2 class="text-slate-900 font-extrabold text-3xl tracking-tight pb-6">Available players</h2>
         @if (forecasts == null)
         {
             <p><em>Loading...</em></p>
@@ -17,9 +19,9 @@
         else
         {
             <table
-                class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-lg rounded-b-none bg-opacity-40">
+                class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-2xl rounded-b-none bg-opacity-40 overflow-hidden">
                 <thead>
-                    <tr>
+                    <tr class="bg-slate-900">
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Date</th>
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Temp. (C)
                         </th>
@@ -33,7 +35,7 @@
                 <tbody>
                     @foreach (var forecast in forecasts)
                     {
-                        <tr>
+                        <tr class="hover:bg-slate-100">
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@forecast.Date.ToShortDateString()
                             </td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@forecast.TemperatureC</td>
@@ -41,8 +43,8 @@
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@forecast.Summary</td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">
                                 <button @onclick="() => AddPlayer(forecast)"
-                                    class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400">
-                                    Add
+                                    class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
+                                    + Add
                                 </button>
                             </td>
                         </tr>
@@ -61,9 +63,9 @@
         else
         {
             <table
-                class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-lg rounded-b-none bg-opacity-40">
+                class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-2xl rounded-b-none bg-opacity-40 overflow-hidden">
                 <thead>
-                    <tr>
+                    <tr class="bg-slate-900">
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Date</th>
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Temp. (C)
                         </th>
