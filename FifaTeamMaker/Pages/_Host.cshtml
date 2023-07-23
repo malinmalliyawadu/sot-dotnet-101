@@ -12,11 +12,52 @@
     <base href="~/" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        blob: "blob 7s infinite",
+                    },
+                    keyframes: {
+                        blob: {
+                            "0%": {
+                                transform: "translate(0px, 0px) scale(1)",
+                            },
+                            "33%": {
+                                transform: "translate(30px, -50px) scale(1.1)",
+                            },
+                            "66%": {
+                                transform: "translate(-20px, 20px) scale(0.9)",
+                            },
+                            "100%": {
+                                transform: "tranlate(0px, 0px) scale(1)",
+                            },
+                        },
+                    },
+                },
+            },
+            plugins: [],
+        }
+    </script>
     <link rel="icon" type="image/png" href="favicon.png" />
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 </head>
 
-<body class="bg-gradient-to-r from-emerald-500 to-lime-600 p-12">
+<body class=" bg-white p-12">
+    <div class="absolute w-screen h-screen -z-10">
+        <div
+            class="absolute top-0 left-0 w-2/3 h-2/3 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-90 animate-blob">
+        </div>
+        <div
+            class="absolute top-0 right-0 w-2/3 h-2/3 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-90 animate-blob animation-delay-2000">
+        </div>
+        <div
+            class="absolute bottom-0 left-0 right-0 w-full h-2/3 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-90 animate-blob animation-delay-4000">
+        </div>
+
+    </div>
+
     <component type="typeof(App)" render-mode="ServerPrerendered" />
 
     <script src="_framework/blazor.server.js"></script>
