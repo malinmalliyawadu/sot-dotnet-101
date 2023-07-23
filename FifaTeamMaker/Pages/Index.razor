@@ -5,7 +5,7 @@
 <PageTitle>Fifa Team Builder</PageTitle>
 
 <h1 class=" font-extrabold text-9xl tracking-tight mb-16">
-    <span class="text-slate-700 text-opacity-40">Fifa Team Builder</span>
+    <span class="text-white text-opacity-80 drop-shadow-lg">Fifa Team Builder</span>
     ⚽️
 </h1>
 
@@ -36,12 +36,12 @@
                     @foreach (var forecast in forecasts)
                     {
                         <tr class="hover:bg-slate-100">
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@forecast.Date.ToShortDateString()
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.Date.ToShortDateString()
                             </td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@forecast.TemperatureC</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@forecast.TemperatureF</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@forecast.Summary</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.TemperatureC</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.TemperatureF</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.Summary</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
                                 <button @onclick="() => AddPlayer(forecast)"
                                     class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
                                     + Add
