@@ -29,12 +29,12 @@ jobs:
         run: dotnet publish FifaTeamMaker/FifaTeamMaker.csproj -c Release -p:GHPages=true -o dist/Web --nologo
     
       # copy index.html to 404.html to serve the same file when a file is not found
-      - name: copy index.html to 404.html
-        run: cp release/wwwroot/index.html release/wwwroot/404.html
+      - name: Copy index.html to 404.html
+        run: cp dist/Web/wwwroot/index.html dist/Web/wwwroot/404.html
 
       # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
       - name: Add .nojekyll file
-        run: touch release/wwwroot/.nojekyll
+        run: touch dist/Web/wwwroot/.nojekyll
       
       # Deploys the built app to GitHub Pages
       - name: Commit wwwroot to GitHub Pages
