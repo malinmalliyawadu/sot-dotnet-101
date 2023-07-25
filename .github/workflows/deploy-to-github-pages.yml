@@ -23,7 +23,7 @@ jobs:
           
       # Publishes Blazor project to the release-folder
       - name: Publish .NET Project
-        run: dotnet publish BlazorApp/BlazorApp.csproj -c:Release -p:GHPages=true -o dist/Web --nologo
+        run: dotnet publish FifaTeamMaker/FifaTeamMaker.csproj -c:Release -p:GHPages=true -o dist/Web --nologo
 
       # Deploys the built app to GitHub Pages
       - name: Commit wwwroot to GitHub Pages
