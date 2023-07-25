@@ -3,11 +3,12 @@
 {
 	"name": "C# (.NET)",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0.9",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"bradlc.vscode-tailwindcss"
+				"bradlc.vscode-tailwindcss",
+				"ms-dotnettools.blazorwasm-companion"
 			]
 		}
 	},
