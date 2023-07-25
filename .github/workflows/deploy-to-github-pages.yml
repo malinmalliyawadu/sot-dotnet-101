@@ -27,6 +27,10 @@ jobs:
       # Publishes Blazor project to the release-folder
       - name: Publish .NET Project
         run: dotnet publish FifaTeamMaker/FifaTeamMaker.csproj -c Release -p:GHPages=true -o dist/Web --nologo
+        
+      # changes the base-tag in index.html from '/' to 'sot-dotnet-101' to match GitHub Pages repository subdirectory
+      - name: Change base-tag in index.html from / to sot-dotnet-101
+        run: sed -i 's/<base href="\/" \/>/<base href="\/sot-dotnet-101\/" \/>/g' dist/Web/wwwroot/index.html
     
       # copy index.html to 404.html to serve the same file when a file is not found
       - name: Copy index.html to 404.html
