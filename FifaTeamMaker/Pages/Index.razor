@@ -1,6 +1,5 @@
 ﻿@page "/"
-@using FifaTeamMaker.Data
-@inject WeatherForecastService ForecastService
+@inject HttpClient Http
 
 <PageTitle>Fifa Team Builder</PageTitle>
 
@@ -93,17 +92,27 @@
 </div>
 
 @code {
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
     private WeatherForecast[]? forecasts;
     private List<WeatherForecast> team = new();
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
     }
 
     private void AddPlayer(WeatherForecast player)
     {
-
         team.Add(player);
     }
 }
