@@ -30,6 +30,6 @@ jobs:
 
       # Deploys the built app to GitHub Pages
       - name: Commit wwwroot to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist/Web/wwwroot
