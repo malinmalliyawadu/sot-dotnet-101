@@ -1,0 +1,1575 @@
+{
+  "IdCompetition": "103",
+  "IdSeason": "285026",
+  "IdTeam": "1884881",
+  "IdCountry": "ARG",
+  "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+  "TeamName": [
+    {
+      "Locale": "en-GB",
+      "Description": "Argentina"
+    }
+  ],
+  "Players": [
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "199325",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Vanina CORREA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CORREA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 1,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "1983-08-14T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2003-04-09T00:00:00Z",
+      "LeaveDate": "2023-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 71.0,
+      "Height": 180.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "CD057C0D-CC00-4132-937F6B69DF5DEDAD",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/cd057c0d-cc00-4132-937f-6b69df5dedad/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "199325"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "357669",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Adriana SACHS"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "SACHS"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 2,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1993-12-25T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2018-11-08T00:00:00Z",
+      "LeaveDate": "2018-11-13T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 61.0,
+      "Height": 163.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "5992D863-6A81-407B-99FD4D15AD0EBB25",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/5992d863-6a81-407b-99fd-4d15ad0ebb25/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "357669"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "420334",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Eliana STABILE"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "STABILE"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 3,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1993-11-26T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-26T00:00:00Z",
+      "LeaveDate": "2033-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 61.0,
+      "Height": 167.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "F5EA9E38-BBB4-481A-B7BD25AF0CFBBA42",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/f5ea9e38-bbb4-481a-b7bd-25af0cfbba42/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "420334"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "461591",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Julieta CRUZ"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CRUZ"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 4,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1996-06-04T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-01-17T00:00:00Z",
+      "LeaveDate": "2036-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 55.0,
+      "Height": 160.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "F4DCAA27-089A-480A-A535DBDC0DDF0395",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/f4dcaa27-089a-480a-a535-dbdc0ddf0395/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "461591"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "277423",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Vanesa SANTANA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "SANTANA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 5,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1990-09-03T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2007-07-26T00:00:00Z",
+      "LeaveDate": "2030-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 53.0,
+      "Height": 157.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "AF9FF8CE-6046-4D8A-BB39145900B61125",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/af9ff8ce-6046-4d8a-bb39-145900b61125/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "277423"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "357688",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Aldana COMETTI"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "COMETTI"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 6,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1996-03-03T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-26T00:00:00Z",
+      "LeaveDate": "2036-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 61.0,
+      "Height": 168.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "7F4A693B-87E0-4C5C-A78CF20B65F3EFFF",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/7f4a693b-87e0-4c5c-a78c-f20b65f3efff/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "357688"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "461594",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Romina NUNEZ"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "NUÑEZ"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 7,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1994-01-01T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-01-17T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 55.0,
+      "Height": 158.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "1B78DD4C-4675-41BE-9A85C500ACD48D63",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/1b78dd4c-4675-41be-9a85-c500acd48d63/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "461594"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "420324",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Daiana FALFAN"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Daiana FALFAN"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 8,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "2000-10-14T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-26T00:00:00Z",
+      "LeaveDate": "2040-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 60.0,
+      "Height": 165.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "2B674FAA-44E5-4E2E-ACF8F2C95E4D117C",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/2b674faa-44e5-4e2e-acf8-f2c95e4d117c/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "420324"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "461584",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Paulina GRAMAGLIA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "GRAMAGLIA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 9,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "2003-03-21T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-01-17T00:00:00Z",
+      "LeaveDate": "2043-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 60.0,
+      "Height": 175.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "06F656A5-9C29-44F7-85A313A54128C5AF",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/06f656a5-9c29-44f7-85a3-13a54128c5af/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "461584"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "420326",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Dalila IPPOLITO"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "IPPOLITO"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 10,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "2002-03-24T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-26T00:00:00Z",
+      "LeaveDate": "2042-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 58.0,
+      "Height": 157.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "D3B46F41-1CBC-40A1-895A6AAB1C0D897E",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/d3b46f41-1cbc-40a1-895a-6aab1c0d897e/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "420326"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "417317",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Yamila RODRIGUEZ"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Yamila RODRIGUEZ"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 11,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1998-01-24T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2018-11-14T00:00:00Z",
+      "LeaveDate": null,
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 65.0,
+      "Height": 162.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "1274A494-2E72-456F-8473193C6904CC79",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/1274a494-2e72-456f-8473-193c6904cc79/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "417317"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "461592",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Lara ESPONDA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ESPONDA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 12,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "2005-11-08T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-01-17T00:00:00Z",
+      "LeaveDate": "2045-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 62.0,
+      "Height": 170.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "19FB48A4-8333-4764-8E682EE76DEB065F",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/19fb48a4-8333-4764-8e68-2ee76deb065f/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "461592"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "461590",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Sophia BRAUN"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BRAUN"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 13,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "2000-01-26T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-01-17T00:00:00Z",
+      "LeaveDate": "2040-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 60.0,
+      "Height": 170.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "9CDB8694-AF74-4BC4-9F642E834FDF7E8C",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/9cdb8694-af74-4bc4-9f64-2e834fdf7e8c/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "461590"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "420328",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Miriam MAYORGA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "MAYORGA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 14,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1989-11-20T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-26T00:00:00Z",
+      "LeaveDate": "2029-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 57.0,
+      "Height": 163.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "3C8B10F8-A645-4466-A587737667DE48D0",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/3c8b10f8-a645-4466-a587-737667de48d0/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "420328"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "357674",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Florencia BONSEGUNDO"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BONSEGUNDO"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 15,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1993-07-14T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2018-11-08T00:00:00Z",
+      "LeaveDate": "2018-11-13T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 60.0,
+      "Height": 167.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "A7887241-C1FE-4956-8E3C1CE7A1AF0144",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/a7887241-c1fe-4956-8e3c-1ce7a1af0144/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "357674"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "420318",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Lorena BENITEZ"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BENITEZ"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 16,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1998-12-03T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-26T00:00:00Z",
+      "LeaveDate": "2038-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 63.0,
+      "Height": 156.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "290870A5-5051-404C-A5246BE80D2965F0",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/290870a5-5051-404c-a524-6be80d2965f0/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "420318"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "357671",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Camila GOMEZ ARES"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "GOMEZ ARES"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 17,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1994-10-26T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-03-14T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 55.0,
+      "Height": 150.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "85180595-EE8A-4C85-BC934C174B42CCE8",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/85180595-ee8a-4c85-bc93-4c174b42cce8/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "357671"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "251033",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Gabriela CHAVEZ"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CHAVEZ"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 18,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1989-04-09T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2006-11-10T00:00:00Z",
+      "LeaveDate": "2006-11-26T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 63.0,
+      "Height": 170.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "A2C9CDAB-C911-441A-99ECE5CA50F5D341",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/a2c9cdab-c911-441a-99ec-e5ca50f5d341/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "251033"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "277429",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Mariana LARROQUETTE"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LARROQUETTE"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 19,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1992-10-24T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2007-07-26T00:00:00Z",
+      "LeaveDate": "2032-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 55.0,
+      "Height": 166.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "8A5656FE-58F9-42E7-804CA9C071F4C12A",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/8a5656fe-58f9-42e7-804c-a9c071f4c12a/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "277429"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "461597",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Chiara SINGARELLA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "SINGARELLA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 20,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "2003-12-05T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-01-17T00:00:00Z",
+      "LeaveDate": "2043-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 58.0,
+      "Height": 165.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "53D06ECB-B1BD-4974-887839FE7032F5F0",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/53d06ecb-b1bd-4974-8878-39fe7032f5f0/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "461597"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "461593",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Erica LONIGRO"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LONIGRO"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 21,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1994-07-06T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-01-17T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 62.0,
+      "Height": 166.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "560F0948-5D09-4846-8EDFA0EDE9051999",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/560f0948-5d09-4846-8edf-a0ede9051999/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "461593"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "330067",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Estefania BANINI"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BANINI"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 22,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1990-06-21T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2010-11-19T00:00:00Z",
+      "LeaveDate": "2030-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 58.0,
+      "Height": 160.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "272C66B5-5D9C-468F-A3A86BDA455E68D3",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/272c66b5-5d9c-468f-a3a8-6bda455e68d3/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "330067"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdPlayer": "467570",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Abigail CHAVES"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CHAVES"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 23,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "1997-07-11T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-06-21T00:00:00Z",
+      "LeaveDate": "2037-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 67.0,
+      "Height": 175.0,
+      "IdCountry": "ARG",
+      "PlayerPicture": {
+        "Id": "9C7FA3AC-B7AA-476B-BF94ADC5878C9C17",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/9c7fa3ac-b7aa-476b-bf94-adc5878c9c17/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "467570"
+      },
+      "IsUpdateable": null
+    }
+  ],
+  "Officials": [
+    {
+      "IdTeam": "1884881",
+      "IdCoach": "461577",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Sebastian GOMEZ"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "Sebastian GOMEZ"
+        }
+      ],
+      "BirthDate": "1982-07-16T00:00:00Z",
+      "Role": 1,
+      "IdCountry": "ARG",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "461577"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1884881",
+      "IdCoach": "439780",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "German PORTANOVA"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "German PORTANOVA"
+        }
+      ],
+      "BirthDate": "1973-10-19T00:00:00Z",
+      "Role": 0,
+      "IdCountry": "ARG",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": "https://digitalhub.fifa.com/transform/aa8f9cdc-eef0-446e-8a6d-33088d0eb508/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023",
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "439780"
+      },
+      "IsUpdateable": null
+    }
+  ],
+  "ParticipationStatus": 14,
+  "Properties": {},
+  "IsUpdateable": null
+}

@@ -1,0 +1,1605 @@
+{
+  "IdCompetition": "103",
+  "IdSeason": "285026",
+  "IdTeam": "1882881",
+  "IdCountry": "BRA",
+  "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+  "TeamName": [
+    {
+      "Locale": "en-GB",
+      "Description": "Brazil"
+    }
+  ],
+  "Players": [
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "251049",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BARBARA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BÁRBARA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 1,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "1988-07-04T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2006-11-10T00:00:00Z",
+      "LeaveDate": "2006-11-26T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 75.0,
+      "Height": 171.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "D808F022-38DB-4A2F-AAC0C533D8CC1326",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/d808f022-38db-4a2f-aac0-c533d8cc1326/1556714212"
+      },
+      "Properties": {
+        "IdIFES": "251049"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "420470",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANTONIA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANTONIA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 2,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1994-04-26T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-27T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 65.0,
+      "Height": 168.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "6915B6A2-C4AE-4969-A559F13476FB4954",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/6915b6a2-c4ae-4969-a559-f13476fb4954/1556715229"
+      },
+      "Properties": {
+        "IdIFES": "420470"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "420472",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "KATHELLEN"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "KATHELLEN"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 3,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1996-04-26T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-27T00:00:00Z",
+      "LeaveDate": "2036-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 65.0,
+      "Height": 175.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "5F0F7663-5BF8-4738-898ECE8C850D6FFF",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/5f0f7663-5bf8-4738-898e-ce8c850d6fff/1556434301"
+      },
+      "Properties": {
+        "IdIFES": "420472"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "296322",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "RAFAELLE"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "RAFAELLE"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 4,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1991-06-18T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2011-05-19T00:00:00Z",
+      "LeaveDate": "2031-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 67.0,
+      "Height": 175.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "0BCA8912-4DF1-4B2A-8BB0263FF89884C5",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/0bca8912-4df1-4b2a-8bb0-263ff89884c5/1556434840"
+      },
+      "Properties": {
+        "IdIFES": "296322"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "321165",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LUANA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LUANA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 5,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1993-05-02T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-27T00:00:00Z",
+      "LeaveDate": "2033-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 56.0,
+      "Height": 173.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "15456D21-9B8C-48BC-A68E7D76C20E61DA",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/15456d21-9b8c-48bc-a68e-7d76c20e61da/1556716272"
+      },
+      "Properties": {
+        "IdIFES": "321165"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "215194",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "TAMIRES"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "TAMIRES"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 6,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1987-10-10T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2016-06-15T00:00:00Z",
+      "LeaveDate": "2032-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 54.0,
+      "Height": 161.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "7DB8F79B-622E-435C-9213B0BCAF726678",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/7db8f79b-622e-435c-9213-b0bcaf726678/1556716781"
+      },
+      "Properties": {
+        "IdIFES": "215194"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "322662",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANDRESSA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANDRESSA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 7,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1992-11-10T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2016-06-15T00:00:00Z",
+      "LeaveDate": "2037-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 56.0,
+      "Height": 168.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "73E0C4D0-3F85-4678-8CF0074FAC9C6FC2",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/73e0c4d0-3f85-4678-8cf0-074fac9c6fc2/1556717299"
+      },
+      "Properties": {
+        "IdIFES": "322662"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "397537",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANA VITORIA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANA VITÓRIA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 8,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "2000-03-06T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2021-05-19T00:00:00Z",
+      "LeaveDate": "2040-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 65.0,
+      "Height": 173.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "58F6EDE2-E6C4-4024-838DAD002E10C211",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/58f6ede2-e6c4-4024-838d-ad002e10c211/1556717312"
+      },
+      "Properties": {
+        "IdIFES": "397537"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "322658",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "DEBINHA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "DEBINHA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 9,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1991-10-20T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2016-06-15T00:00:00Z",
+      "LeaveDate": "2036-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 55.0,
+      "Height": 157.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "2446727F-C33E-4224-8F517636D405649C",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/2446727f-c33e-4224-8f51-7636d405649c/1556721443"
+      },
+      "Properties": {
+        "IdIFES": "322658"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "190358",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "MARTA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "MARTA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 10,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1986-02-19T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2003-01-22T00:00:00Z",
+      "LeaveDate": "2026-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 56.0,
+      "Height": 162.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "27B226F4-FE77-46C3-B44A59151F6F8C68",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/27b226f4-fe77-46c3-b44a-59151f6f8c68/1556721444"
+      },
+      "Properties": {
+        "IdIFES": "190358"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "420474",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ADRIANA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ADRIANA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 11,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1996-11-17T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-27T00:00:00Z",
+      "LeaveDate": "2036-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 53.0,
+      "Height": 164.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "B56C5095-32A7-471F-9DEE825993CD8991",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/b56c5095-32a7-471f-9dee-825993cd8991/1556721949"
+      },
+      "Properties": {
+        "IdIFES": "420474"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "321160",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LETICIA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LETÍCIA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 12,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "1994-08-13T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2016-06-15T00:00:00Z",
+      "LeaveDate": "2039-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 62.0,
+      "Height": 174.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "E23A5538-1ACA-4EAB-98B9D1B5E6919F30",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/e23a5538-1aca-4eab-98b9-d1b5e6919f30/1556714218"
+      },
+      "Properties": {
+        "IdIFES": "321160"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "415529",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BRUNINHA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BRUNINHA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 13,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "2002-06-16T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-03-14T00:00:00Z",
+      "LeaveDate": "2042-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 57.0,
+      "Height": 160.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "F76F9C93-8CC7-4B9F-97585623C6407501",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/f76f9c93-8cc7-4b9f-9758-5623c6407501/1556721958"
+      },
+      "Properties": {
+        "IdIFES": "415529"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "415520",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LAUREN"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LAUREN"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 14,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "2002-09-13T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-03-14T00:00:00Z",
+      "LeaveDate": "2042-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 66.0,
+      "Height": 178.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "C56FEC4E-009D-4B93-B65BB90BE064F58F",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/c56fec4e-009d-4b93-b65b-b90be064f58f/1556722469"
+      },
+      "Properties": {
+        "IdIFES": "415520"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "430580",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "DUDA SAMPAIO"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "D. SAMPAIO"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 15,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "2001-05-18T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2021-05-19T00:00:00Z",
+      "LeaveDate": "2041-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 71.0,
+      "Height": 169.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "153BD7A6-3878-47D9-8146DC2E503029FF",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/153bd7a6-3878-47d9-8146-dc2e503029ff/1556722979"
+      },
+      "Properties": {
+        "IdIFES": "430580"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "296328",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "BIA ZANERATTO"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ZANERATTO"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 16,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1993-12-17T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2011-05-19T00:00:00Z",
+      "LeaveDate": "2033-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 69.0,
+      "Height": 176.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "A02E0FA2-4212-48FC-955C54A3000802F6",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/a02e0fa2-4212-48fc-955c-54a3000802f6/1556722981"
+      },
+      "Properties": {
+        "IdIFES": "296328"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "413090",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ARY BORGES"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ARY"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 17,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1999-12-28T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2021-05-19T00:00:00Z",
+      "LeaveDate": "2039-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 59.0,
+      "Height": 167.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "9C906EFD-D238-42EE-BB4A3C2EDFECBA51",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/9c906efd-d238-42ee-bb4a-3c2edfecba51/1556723995"
+      },
+      "Properties": {
+        "IdIFES": "413090"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "398377",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "GEYSE"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "GEYSE"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 18,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1998-03-27T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-27T00:00:00Z",
+      "LeaveDate": "2038-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 69.0,
+      "Height": 169.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "CF028091-CB27-4AD1-88C997E738C9D251",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/cf028091-cb27-4ad1-88c9-97e738c9d251/1556724518"
+      },
+      "Properties": {
+        "IdIFES": "398377"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "251055",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "MONICA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "MÔNICA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 19,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1987-04-21T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2016-06-15T00:00:00Z",
+      "LeaveDate": "2032-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 64.0,
+      "Height": 168.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "F1FF4D8E-5714-4494-BAB22CABBC335EC9",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/f1ff4d8e-5714-4494-bab2-2cabbc335ec9/1556724717"
+      },
+      "Properties": {
+        "IdIFES": "251055"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "397535",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANGELINA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ANGELINA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 20,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "2000-01-26T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2021-05-19T00:00:00Z",
+      "LeaveDate": "2040-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 59.0,
+      "Height": 164.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "E0CA5F23-E950-4D60-B067470A9D205742",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/e0ca5f23-e950-4d60-b067-470a9d205742/1556725041"
+      },
+      "Properties": {
+        "IdIFES": "397535"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "397556",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "KEROLIN"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "KEROLIN"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 21,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1999-11-17T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2021-05-19T00:00:00Z",
+      "LeaveDate": "2039-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 52.0,
+      "Height": 171.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "586DAFFE-BF8C-44FF-84A1321BA38D4213",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/586daffe-bf8c-44ff-84a1-321ba38d4213/1556725548"
+      },
+      "Properties": {
+        "IdIFES": "397556"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "466993",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CAMILA"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CAMILA"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 22,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "2001-01-02T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-06-19T00:00:00Z",
+      "LeaveDate": "2041-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 77.0,
+      "Height": 174.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "2BCA0D55-F03F-4BF7-982509E5EA280261",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/2bca0d55-f03f-4bf7-9825-09e5ea280261/1556714720"
+      },
+      "Properties": {
+        "IdIFES": "466993"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdPlayer": "381604",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "GABI NUNES"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "GABI NUNES"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 23,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1997-03-10T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-27T00:00:00Z",
+      "LeaveDate": "2037-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 60.0,
+      "Height": 170.0,
+      "IdCountry": "BRA",
+      "PlayerPicture": {
+        "Id": "917CFEAE-99D6-408D-A84AB5EC4DFAED72",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/917cfeae-99d6-408d-a84a-b5ec4dfaed72/1556725554"
+      },
+      "Properties": {
+        "IdIFES": "381604"
+      },
+      "IsUpdateable": null
+    }
+  ],
+  "Officials": [
+    {
+      "IdTeam": "1882881",
+      "IdCoach": "276245",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Lilie PERSSON"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "Lilie PERSSON"
+        }
+      ],
+      "BirthDate": "1966-04-23T00:00:00Z",
+      "Role": 1,
+      "IdCountry": "SWE",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "276245"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdCoach": "430579",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Leif JOHANSSON"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "Leif JOHANSSON"
+        }
+      ],
+      "BirthDate": "1967-04-11T00:00:00Z",
+      "Role": 1,
+      "IdCountry": "SWE",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "430579"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882881",
+      "IdCoach": "576",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Pia Mariane Sundhage"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "Pia SUNDHAGE"
+        }
+      ],
+      "BirthDate": "1960-02-13T00:00:00Z",
+      "Role": 0,
+      "IdCountry": "SWE",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": "https://digitalhub.fifa.com/transform/ed1c772f-88e0-438a-9aad-daf27b8af959/1556713702",
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "576"
+      },
+      "IsUpdateable": null
+    }
+  ],
+  "ParticipationStatus": 14,
+  "Properties": {},
+  "IsUpdateable": null
+}

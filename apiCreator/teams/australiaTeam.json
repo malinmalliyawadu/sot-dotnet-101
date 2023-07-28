@@ -1,0 +1,1605 @@
+{
+  "IdCompetition": "103",
+  "IdSeason": "285026",
+  "IdTeam": "1882891",
+  "IdCountry": "AUS",
+  "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+  "TeamName": [
+    {
+      "Locale": "en-GB",
+      "Description": "Australia"
+    }
+  ],
+  "Players": [
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "225531",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Lydia WILLIAMS"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "WILLIAMS"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 1,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "1988-05-13T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2005-06-12T00:00:00Z",
+      "LeaveDate": "2006-07-30T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 66.0,
+      "Height": 175.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "BC19F8C8-597A-42DF-BA809AD8F10AC456",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/bc19f8c8-597a-42df-ba80-9ad8f10ac456/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "225531"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "430530",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Courtney NEVIN"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Courtney NEVIN"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 2,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "2002-02-12T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2021-05-19T00:00:00Z",
+      "LeaveDate": "2042-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 64.0,
+      "Height": 169.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "6AFAA153-7E02-4D90-B77D9AAB28C7A70D",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/6afaa153-7e02-4d90-b77d-9aab28c7a70d/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "430530"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "326967",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Aivi LUIK"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "LUIK"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 3,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1985-03-18T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2010-09-01T00:00:00Z",
+      "LeaveDate": "2025-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 57.0,
+      "Height": 166.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "66D45F36-5CAF-4D79-A0CC5718BEF4CE5D",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/66d45f36-5caf-4d79-a0cc-5718bef4ce5d/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "326967"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "251935",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Clare POLKINGHORNE"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "POLKINGHORNE"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 4,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1989-02-01T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2007-09-23T00:00:00Z",
+      "LeaveDate": "2007-10-13T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 67.0,
+      "Height": 171.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "F32A1B18-0C12-4176-8154F5BEFADDFF34",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/f32a1b18-0c12-4176-8154-f5befaddff34/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "251935"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "419884",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Cortnee VINE"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Cortnee VINE"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 5,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1998-04-09T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-13T00:00:00Z",
+      "LeaveDate": "2038-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 60.0,
+      "Height": 165.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "53A840EB-FE3C-4385-A701C6122AF058D8",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/53a840eb-fe3c-4385-a701-c6122af058d8/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "419884"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "419885",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Clare WHEELER"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Clare WHEELER"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 6,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1998-01-14T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-13T00:00:00Z",
+      "LeaveDate": "2038-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 57.0,
+      "Height": 163.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "63795416-596C-4EE2-A3563268D74B4C13",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/63795416-596c-4ee2-a356-3268d74b4c13/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "419885"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "386998",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Steph CATLEY"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CATLEY"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 7,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1994-01-26T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2015-04-20T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 65.0,
+      "Height": 171.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "EEE94407-004C-43A1-93D8F1CDEB060D1F",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/eee94407-004c-43a1-93d8-f1cdeb060d1f/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "386998"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "387000",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Alex CHIDIAC"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Alex CHIDIAC"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 8,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1999-01-15T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2015-04-20T00:00:00Z",
+      "LeaveDate": "2039-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 56.0,
+      "Height": 158.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "CBF0979C-2B4B-4CE9-AC5F3B1F71960AE8",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/cbf0979c-2b4b-4ce9-ac5f-3b1f71960ae8/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "387000"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "326979",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Caitlin FOORD"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "FOORD"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 9,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1994-11-11T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2010-09-01T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 67.0,
+      "Height": 168.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "A0229A12-406E-442F-85D10ED5E07CD12E",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/a0229a12-406e-442f-85d1-0ed5e07cd12e/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "326979"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "326968",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Emily VAN EGMOND"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "VAN EGMOND"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 10,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1993-07-12T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2010-09-01T00:00:00Z",
+      "LeaveDate": "2033-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 62.0,
+      "Height": 174.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "85A814CB-17CB-477B-BCD47D2DE4B4D955",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/85a814cb-17cb-477b-bcd4-7d2de4b4d955/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "326968"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "419898",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Mary FOWLER"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "FOWLER"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 11,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "2003-02-14T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-13T00:00:00Z",
+      "LeaveDate": "2043-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 68.0,
+      "Height": 169.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "F113FC62-CCFD-42B2-96F597129FAFF97E",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/f113fc62-ccfd-42b2-96f5-97129faff97e/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "419898"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "419880",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Teagan MICAH"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Teagan MICAH"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 12,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "1997-10-20T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-13T00:00:00Z",
+      "LeaveDate": "2037-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 73.0,
+      "Height": 174.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "9B6CEA0F-4295-4943-8A723B27E81FC10A",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/9b6cea0f-4295-4943-8a72-3b27e81fc10a/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "419880"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "326972",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Tameka YALLOP"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "YALLOP"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 13,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1991-06-16T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2010-09-01T00:00:00Z",
+      "LeaveDate": "2031-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 56.0,
+      "Height": 161.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "EDF41884-C7C6-477F-BE4A9C2EFB4C86A1",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/edf41884-c7c6-477f-be4a-9c2efb4c86a1/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "326972"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "386994",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Alanna KENNEDY"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "KENNEDY"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 14,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1995-01-21T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2015-04-20T00:00:00Z",
+      "LeaveDate": "2035-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 66.0,
+      "Height": 176.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "432742D5-0668-415D-A612E6D365E3FE9C",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/432742d5-0668-415d-a612-e6d365e3fe9c/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "386994"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "467201",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Clare HUNT"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "HUNT"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 15,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "1999-03-12T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2023-06-20T00:00:00Z",
+      "LeaveDate": "2039-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 71.0,
+      "Height": 176.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "84459CD5-7CA8-4A03-8591A13FF96B0C2A",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/84459cd5-7ca8-4a03-8591-a13ff96b0c2a/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "467201"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "386995",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Hayley RASO"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "RASO"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 16,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1994-09-05T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2015-04-20T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 55.0,
+      "Height": 161.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "3553656D-80EB-4560-813ED845B2447510",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/3553656d-80eb-4560-813e-d845b2447510/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "386995"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "326970",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Kyah SIMON"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "SIMON"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 17,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1991-06-25T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2010-09-01T00:00:00Z",
+      "LeaveDate": "2031-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 63.0,
+      "Height": 165.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "C6E1EA68-A1C1-45DD-B8BF833C1883793B",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/c6e1ea68-a1c1-45dd-b8bf-833c1883793b/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "326970"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "386993",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Mackenzie ARNOLD"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "ARNOLD"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 18,
+      "MatchesPlayed": null,
+      "Position": 0,
+      "BirthDate": "1994-02-25T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2015-04-20T00:00:00Z",
+      "LeaveDate": "2034-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 0,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goalkeeper"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 78.0,
+      "Height": 181.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "B6B29769-961C-4ADC-9A9861A59F1C5A4C",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/b6b29769-961c-4adc-9a98-61a59f1c5a4c/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "386993"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "386996",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Katrina GORRY"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "GORRY"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 19,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "1992-08-13T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2015-04-20T00:00:00Z",
+      "LeaveDate": "2032-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 56.0,
+      "Height": 155.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "12C6127B-0E2D-4554-81CCF84F31D9A20C",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/12c6127b-0e2d-4554-81cc-f84f31d9a20c/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "386996"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "326971",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Sam KERR"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "KERR"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 20,
+      "MatchesPlayed": null,
+      "Position": 3,
+      "BirthDate": "1993-09-10T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2010-09-01T00:00:00Z",
+      "LeaveDate": "2033-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 3,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Forward"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 66.0,
+      "Height": 168.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "7B61165A-5F23-4086-B8D56F767A8216BD",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/7b61165a-5f23-4086-b8d5-6f767a8216bd/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "326971"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "394063",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Ellie CARPENTER"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "CARPENTER"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 21,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "2000-04-28T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2016-03-02T00:00:00Z",
+      "LeaveDate": "2040-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 63.0,
+      "Height": 165.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "48E30B09-C895-44AA-899A9AF3AF2081F3",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/48e30b09-c895-44aa-899a-9af3af2081f3/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "394063"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "430521",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Charlotte GRANT"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Charlotte GRANT"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 22,
+      "MatchesPlayed": null,
+      "Position": 1,
+      "BirthDate": "2001-09-20T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2021-05-19T00:00:00Z",
+      "LeaveDate": "2041-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 1,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Defender"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 62.0,
+      "Height": 168.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "E3F81ACB-7EA3-4F8E-9532BFD98431D127",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/e3f81acb-7ea3-4f8e-9532-bfd98431d127/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "430521"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdPlayer": "419874",
+      "IdSeason": "285026",
+      "PlayerName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Kyra COONEY-CROSS"
+        }
+      ],
+      "ShortName": [
+        {
+          "Locale": "en-GB",
+          "Description": "Kyra COONEY-CROSS"
+        }
+      ],
+      "TeamType": null,
+      "JerseyNum": 23,
+      "MatchesPlayed": null,
+      "Position": 2,
+      "BirthDate": "2002-02-15T00:00:00Z",
+      "DebutDate": null,
+      "JoinDate": "2019-04-13T00:00:00Z",
+      "LeaveDate": "2042-12-31T00:00:00Z",
+      "PreferredFoot": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "CompetitionDebut": null,
+      "RealPosition": 2,
+      "RealPositionSide": 3,
+      "Goals": null,
+      "RedCards": null,
+      "YellowCards": null,
+      "MediaContent": [],
+      "PositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Midfielder"
+        }
+      ],
+      "RealPositionSideLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Unknown"
+        }
+      ],
+      "SpecialStatus": 0,
+      "Weight": 62.0,
+      "Height": 165.0,
+      "IdCountry": "AUS",
+      "PlayerPicture": {
+        "Id": "A0BE21B4-0AE4-4937-A23D5EED4CE5A4FD",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/a0be21b4-0ae4-4937-a23d-5eed4ce5a4fd/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023"
+      },
+      "Properties": {
+        "IdIFES": "419874"
+      },
+      "IsUpdateable": null
+    }
+  ],
+  "Officials": [
+    {
+      "IdTeam": "1882891",
+      "IdCoach": "419888",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Mel ANDREATTA"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "Mel ANDREATTA"
+        }
+      ],
+      "BirthDate": "1979-01-26T00:00:00Z",
+      "Role": 1,
+      "IdCountry": "AUS",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "419888"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdCoach": "467204",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Jens FJELLSTROM"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "Jens FJELLSTROM"
+        }
+      ],
+      "BirthDate": "1966-10-27T00:00:00Z",
+      "Role": 1,
+      "IdCountry": "SWE",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": null,
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "467204"
+      },
+      "IsUpdateable": null
+    },
+    {
+      "IdTeam": "1882891",
+      "IdCoach": "356683",
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Tony Gustavsson"
+        }
+      ],
+      "Alias": [
+        {
+          "Locale": "en-GB",
+          "Description": "Tony GUSTAVSSON"
+        }
+      ],
+      "BirthDate": "1973-08-14T00:00:00Z",
+      "Role": 0,
+      "IdCountry": "SWE",
+      "JoinDate": null,
+      "LeaveDate": null,
+      "CompetitionDebut": null,
+      "DebutDate": null,
+      "PictureUrl": "https://digitalhub.fifa.com/transform/147099e2-bdb4-4802-b5c1-82c724051ea4/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023",
+      "ThumbnailUrl": null,
+      "SpecialStatus": 0,
+      "Properties": {
+        "IdIFES": "356683"
+      },
+      "IsUpdateable": null
+    }
+  ],
+  "ParticipationStatus": 9,
+  "Properties": {},
+  "IsUpdateable": null
+}
