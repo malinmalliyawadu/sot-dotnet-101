@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "FifaTeamMaker.dll": "sha256-8esg8St4C+mnk5fZW0ucuV\/yGlzVjZZTyM69W04L1hQ=",
+      "FifaTeamMaker.dll": "sha256-Ywq7eE8QjY6wOfnHR6qygxxeBLo+ahBwkEAVVyqbTUo=",
       "Microsoft.AspNetCore.Components.dll": "sha256-5BBzd1tg7+e0p4Ei962yfRuNhC31yLQbJvWoxszLsxQ=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-B74Y8IKQ4Wgf0Cqs59UXiHUW4XI5m6GrXT2dUtB3GWI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-OrakNul\/lDKtR0peDI7ACWHczyxIgweUpKDU67MMTo8=",
