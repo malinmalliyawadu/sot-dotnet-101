@@ -3,7 +3,7 @@
 
 <PageTitle>Fifa Team Builder</PageTitle>
 
-<h1 class=" font-extrabold text-9xl tracking-tight mb-16">
+<h1 class="font-extrabold text-9xl tracking-tight mb-16">
     <span class="text-white text-opacity-80 drop-shadow-lg">Fifa Team Builder</span>
     ⚽️
 </h1>
@@ -11,7 +11,7 @@
 <div class="flex justify-between gap-12">
     <div class="w-6/12">
         <h2 class="text-slate-900 font-extrabold text-3xl tracking-tight pb-6">Available players</h2>
-        @if (forecasts == null)
+        @if (nzTeam == null)
         {
             <p><em>Loading...</em></p>
         }
@@ -21,27 +21,23 @@
                 class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-2xl rounded-b-none bg-opacity-40 overflow-hidden">
                 <thead>
                     <tr class="bg-slate-900">
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Date</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Temp. (C)
-                        </th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Temp. (F)
-                        </th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Summary
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">First name</th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position
                         </th>
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var forecast in forecasts)
+                    @foreach (var player in nzTeam.players)
                     {
                         <tr class="hover:bg-slate-100">
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.Date.ToShortDateString()
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.PlayerName.First().Description
                             </td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.TemperatureC</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.TemperatureF</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@forecast.Summary</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.RealPositionLocalized.First().Description</td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
-                                <button @onclick="() => AddPlayer(forecast)"
+                                <button @onclick="() => AddPlayer(player)"
                                     class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
                                     + Add
                                 </button>
@@ -65,12 +61,9 @@
                 class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-2xl rounded-b-none bg-opacity-40 overflow-hidden">
                 <thead>
                     <tr class="bg-slate-900">
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Date</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Temp. (C)
-                        </th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Temp. (F)
-                        </th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Summary
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Name</th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position
                         </th>
                     </tr>
                 </thead>
@@ -78,11 +71,10 @@
                     @foreach (var player in team)
                     {
                         <tr>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.Date.ToShortDateString()
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.PlayerName.FirstOrDefault().Description
                             </td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.TemperatureC</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.TemperatureF</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.Summary</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.RealPositionLocalized.First().Description</td>
                         </tr>
                     }
                 </tbody>
@@ -92,27 +84,52 @@
 </div>
 
 @code {
-    public class WeatherForecast
-    {
-        public DateOnly Date { get; set; }
+    
+public class Stat {
+  public string stat {get;set;}
+  public int count{get;set;}
+}
 
-        public int TemperatureC { get; set; }
+public class LocalizedString {
+    public string Locale {get;set;}
+    public string Description {get;set;}
+}
 
-        public string? Summary { get; set; }
+public class PlayerPicture {
+    public string PictureUrl {get;set;}
+}
 
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
+public class Player {
+  public int IdPlayer {get;set;}
+  public LocalizedString[] PlayerName {get;set;}
+  public LocalizedString[] RealPositionLocalized {get;set;}
+  public decimal height {get;set;}
+  public decimal weight {get;set;}
+  public decimal number {get;set;}
+  public string birthday {get;set;}
+  public Stat[] stats {get;set;}
+  public PlayerPicture PlayerPicture {get;set;}
+}
 
-    private WeatherForecast[]? forecasts;
-    private List<WeatherForecast> team = new();
+public class TeamObject {
+  public string id {get;set;}
+  public string country {get;set;}
+  public string code {get;set;}
+  public Player[] players {get;set;}
+}
+
+    private TeamObject nzTeam;
+    private List<Player> team = new();
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        nzTeam = await Http.GetFromJsonAsync<TeamObject>("https://api.fifa.com/api/v3/teams/1883725/squad?idCompetition=103&idSeason=285026&language=en");
     }
 
-    private void AddPlayer(WeatherForecast player)
+    private void AddPlayer(Player player)
     {
+        if (!team.Any(x => x.IdPlayer == player.IdPlayer)) {
         team.Add(player);
+        }
     }
 }

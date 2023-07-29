@@ -26,7 +26,7 @@ interface TeamObject {
 /**
  *
  * @param statData To get this data https://fdh-api.fifa.com/v1/stats/season/{IdSeason}/players.json
- * @param teamData To get this data https://api.fifa.com/api/v3/teams/{IdTeam}/squad?idCompetition=103&idSeason=285026&language=en
+ * @param teamData To get this data https://api.fifa.com/api/v3/teams/1883725/squad?idCompetition=103&idSeason=285026&language=en
  * @returns
  */
 
