@@ -38,14 +38,14 @@
                 <tbody>
                     @foreach (var player in nzTeam.players)
                     {
-                        if(!IsVisible(player))
+                        if(!IsVisible(nzTeam, player))
                             continue;
                         <tr class="hover:bg-slate-100">
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.PlayerName.First().Description
                             </td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.RealPositionLocalized.First().Description</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">New Zealand</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@nzTeam.TeamName.First().Description</td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
                                 <button @onclick="() => AddPlayer(player)"
                                     class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
@@ -123,7 +123,7 @@
 
     public class TeamObject {
     public string id {get;set;}
-    public string country {get;set;}
+    public LocalizedString[] TeamName {get;set;}
     public string code {get;set;}
     public Player[] players {get;set;}
     }
@@ -133,13 +133,19 @@
 
     public string Filter { get; set; }
 
-    public bool IsVisible(Player player)
+    public bool IsVisible(TeamObject team, Player player)
 {
     if (string.IsNullOrEmpty(Filter))
         return true;
  
     if (player.PlayerName.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
         return true;
+
+    if (player.RealPositionLocalized.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
+        return true;
+
+    if (team.TeamName.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
+    return true;
  
     return false;
 }
