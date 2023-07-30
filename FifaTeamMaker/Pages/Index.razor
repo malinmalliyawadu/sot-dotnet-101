@@ -36,24 +36,27 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var player in nzTeam.players)
-                    {
-                        if(!IsVisible(nzTeam, player))
-                            continue;
-                        <tr class="hover:bg-slate-100">
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.PlayerName.First().Description
-                            </td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.RealPositionLocalized.First().Description</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@nzTeam.TeamName.First().Description</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
-                                <button @onclick="() => AddPlayer(player)"
-                                    class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
-                                    + Add
-                                </button>
-                            </td>
-                        </tr>
+                    @foreach (var team in AllTeams) {
+                        @foreach (var player in team.players)
+                        {
+                            if(!IsVisible(team, player))
+                                continue;
+                            <tr class="hover:bg-slate-100">
+                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
+                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.PlayerName.First().Description
+                                </td>
+                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.RealPositionLocalized.First().Description</td>
+                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@team.TeamName.First().Description</td>
+                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
+                                    <button @onclick="() => AddPlayer(player)"
+                                        class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
+                                        + Add
+                                    </button>
+                                </td>
+                            </tr>
+                        }
                     }
+                    
                 </tbody>
             </table>
         }
@@ -128,37 +131,77 @@
     public Player[] players {get;set;}
     }
 
+    private TeamObject[] AllTeams = new TeamObject[32];
     private TeamObject nzTeam;
     private List<Player> team = new();
-
+    private Dictionary<string, string> teams = new Dictionary<string, string>(){
+        {"argentina", "1884881"},
+        {"australia", "1882891"},
+        {"denmark", "1883719"},
+        {"vietnam", "1886308"},
+        {"costa-rica", "1884880"},
+        {"spain", "1884823"},
+        {"brazil", "1882881"},
+        {"netherlands", "1884883"},
+        {"south-africa", "1885031"},
+        {"colombia", "1885035"},
+        {"japan", "1883723"},
+        {"italy", "1883722"},
+        {"new-zealand", "1883725"},
+        {"jamaica", "1885011"},
+        {"england", "1883720"},
+        {"switzerland", "1884203"},
+        {"haiti", "1885012"},
+        {"morocco", "1884821"},
+        {"usa", "1882884"},
+        {"france", "1884761"},
+        {"norway", "1882882"},
+        {"republic-of-ireland", "1884884"},
+        {"sweden", "1882883"},
+        {"zambia", "1885017"},
+        {"portugal", "1884822"},
+        {"china-pr", "1882892"},
+        {"philippines", "1885027"},
+        {"panama", "1889512"},
+        {"germany", "1882879"},
+        {"korea-republic", "1885010"},
+        {"nigeria", "1882893"},
+        {"canada", "1883718"},
+    };
     public string Filter { get; set; }
 
     public bool IsVisible(TeamObject team, Player player)
-{
-    if (string.IsNullOrEmpty(Filter))
-        return true;
- 
-    if (player.PlayerName.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
-        return true;
+    {
+        if (string.IsNullOrEmpty(Filter))
+            return true;
+    
+        if (player.PlayerName.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
+            return true;
 
-    if (player.RealPositionLocalized.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
-        return true;
+        if (player.RealPositionLocalized.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
+            return true;
 
-    if (team.TeamName.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
-    return true;
- 
-    return false;
-}
+        if (team.TeamName.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        return false;
+    }
 
     protected override async Task OnInitializedAsync()
     {
-        nzTeam = await Http.GetFromJsonAsync<TeamObject>("https://api.fifa.com/api/v3/teams/1883725/squad?idCompetition=103&idSeason=285026&language=en");
+        var index = 0;
+        foreach(var team in teams) {
+            AllTeams[index] = await Http.GetFromJsonAsync<TeamObject>($"https://api.fifa.com/api/v3/teams/{team.Value}/squad?idCompetition=103&idSeason=285026&language=en");
+            index++;
+        }
+        
+        nzTeam = await Http.GetFromJsonAsync<TeamObject>($"https://api.fifa.com/api/v3/teams/{teams["new-zealand"]}/squad?idCompetition=103&idSeason=285026&language=en");
     }
 
     private void AddPlayer(Player player)
     {
         if (!team.Any(x => x.IdPlayer == player.IdPlayer)) {
-        team.Add(player);
+            team.Add(player);
         }
     }
 }
