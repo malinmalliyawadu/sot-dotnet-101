@@ -10,7 +10,14 @@
 
 <div class="flex justify-between gap-12">
     <div class="w-6/12">
-        <h2 class="text-slate-900 font-extrabold text-3xl tracking-tight pb-6">Available players</h2>
+        <div class="flex justify-between">
+            <h2 class="text-slate-900 font-extrabold text-3xl tracking-tight pb-6">Available players</h2>
+            <div class="form-group items-end">
+                <input class="form-control" type="text" placeholder="Filter..."
+                    @bind="Filter"
+                    @bind:event="oninput">
+            </div>
+        </div>
         @if (nzTeam == null)
         {
             <p><em>Loading...</em></p>
@@ -23,19 +30,22 @@
                     <tr class="bg-slate-900">
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">First name</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position
-                        </th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position</th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Country</th>
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var player in nzTeam.players)
                     {
+                        if(!IsVisible(player))
+                            continue;
                         <tr class="hover:bg-slate-100">
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.PlayerName.First().Description
                             </td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.RealPositionLocalized.First().Description</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">New Zealand</td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
                                 <button @onclick="() => AddPlayer(player)"
                                     class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
@@ -85,41 +95,54 @@
 
 @code {
     
-public class Stat {
-  public string stat {get;set;}
-  public int count{get;set;}
-}
+    public class Stat {
+    public string stat {get;set;}
+    public int count{get;set;}
+    }
 
-public class LocalizedString {
-    public string Locale {get;set;}
-    public string Description {get;set;}
-}
+    public class LocalizedString {
+        public string Locale {get;set;}
+        public string Description {get;set;}
+    }
 
-public class PlayerPicture {
-    public string PictureUrl {get;set;}
-}
+    public class PlayerPicture {
+        public string PictureUrl {get;set;}
+    }
 
-public class Player {
-  public int IdPlayer {get;set;}
-  public LocalizedString[] PlayerName {get;set;}
-  public LocalizedString[] RealPositionLocalized {get;set;}
-  public decimal height {get;set;}
-  public decimal weight {get;set;}
-  public decimal number {get;set;}
-  public string birthday {get;set;}
-  public Stat[] stats {get;set;}
-  public PlayerPicture PlayerPicture {get;set;}
-}
+    public class Player {
+    public int IdPlayer {get;set;}
+    public LocalizedString[] PlayerName {get;set;}
+    public LocalizedString[] RealPositionLocalized {get;set;}
+    public decimal height {get;set;}
+    public decimal weight {get;set;}
+    public decimal number {get;set;}
+    public string birthday {get;set;}
+    public Stat[] stats {get;set;}
+    public PlayerPicture PlayerPicture {get;set;}
+    }
 
-public class TeamObject {
-  public string id {get;set;}
-  public string country {get;set;}
-  public string code {get;set;}
-  public Player[] players {get;set;}
-}
+    public class TeamObject {
+    public string id {get;set;}
+    public string country {get;set;}
+    public string code {get;set;}
+    public Player[] players {get;set;}
+    }
 
     private TeamObject nzTeam;
     private List<Player> team = new();
+
+    public string Filter { get; set; }
+
+    public bool IsVisible(Player player)
+{
+    if (string.IsNullOrEmpty(Filter))
+        return true;
+ 
+    if (player.PlayerName.First().Description.Contains(Filter, StringComparison.OrdinalIgnoreCase))
+        return true;
+ 
+    return false;
+}
 
     protected override async Task OnInitializedAsync()
     {
