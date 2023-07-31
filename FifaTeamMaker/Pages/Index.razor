@@ -1,19 +1,17 @@
 ﻿@page "/"
 @inject HttpClient Http
+@using FifaTeamMaker.Components
 
 <PageTitle>Fifa Team Builder</PageTitle>
 
-<h1 class="font-extrabold text-9xl tracking-tight mb-16">
-    <span class="text-white text-opacity-80 drop-shadow-lg">Fifa Team Builder</span>
-    ⚽️
-</h1>
+<Header>Fifa Team Builder ⚽️</Header>
 
 <div class="flex justify-between gap-12">
     <div class="w-6/12">
         <div class="flex justify-between">
-            <h2 class="text-slate-900 font-extrabold text-3xl tracking-tight pb-6">Available players</h2>
+            <SectionTitle>Available players</SectionTitle>
             <div class="form-group items-end">
-                <input class="form-control" type="text" placeholder="Filter..."
+                <input class="form-control rounded-full drop-shadow-lg border-slate-900 pl-5 bg-opacity-40 bg-white" type="text" placeholder="Filter..."
                     @bind="Filter"
                     @bind:event="oninput">
             </div>
@@ -24,91 +22,77 @@
         }
         else
         {
-            <table
-                class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-2xl rounded-b-none bg-opacity-40 overflow-hidden">
+            <Table>
                 <thead>
                     <tr class="bg-slate-900">
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">First name</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Country</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
+                        <HeaderRow />
+                        <HeaderRow>First name</HeaderRow>
+                        <HeaderRow>Position</HeaderRow>
+                        <HeaderRow>Country</HeaderRow>
+                        <HeaderRow></HeaderRow>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var team in AllTeams) {
-                        @foreach (var player in team.players)
+                        @foreach (var player in team.Players)
                         {
                             if(!IsVisible(team, player))
                                 continue;
                             <tr class="hover:bg-slate-100">
-                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
-                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.PlayerName.First().Description
-                                </td>
-                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.RealPositionLocalized.First().Description</td>
-                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@team.TeamName.First().Description</td>
-                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
-                                    <button @onclick="() => AddPlayer(player, team.TeamName.First().Description)"
-                                        class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
-                                        + Add
-                                    </button>
-                                </td>
+                                <BodyRow><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></BodyRow>
+                                <BodyRow>@player.PlayerName.First().Description
+                                </BodyRow>
+                                <BodyRow>@player.RealPositionLocalized.First().Description</BodyRow>
+                                <BodyRow>@team.TeamName.First().Description</BodyRow>
+                                <BodyRow>
+                                    <Button OnClick="() => AddPlayer(player, team.TeamName.First().Description)">+ Add</Button>
+                                </BodyRow>
                             </tr>
                         }
                     }
                 </tbody>
-            </table>
+            </Table>
         }
     </div>
 
     <div class="w-6/12">
-        <h2 class="text-slate-900 font-extrabold text-3xl tracking-tight text-center pb-6">My team</h2>
+        <FifaTeamMaker.Components.SectionTitle>My team</FifaTeamMaker.Components.SectionTitle>
         @if (!team.Any())
         {
             <p class="p-4 bg-slate-200 w-full rounded-lg bg-opacity-40">No players yet 😭</p>
         }
         else
         {
-            <table
-                class="table-auto p-8 border-collapse w-full text-sm bg-slate-200 rounded-2xl rounded-b-none bg-opacity-40 overflow-hidden">
+            <Table>
                 <thead>
                     <tr class="bg-slate-900">
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Name</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Country</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
+                        <HeaderRow></HeaderRow>
+                        <HeaderRow>Name</HeaderRow>
+                        <HeaderRow>Position</HeaderRow>
+                        <HeaderRow>Country</HeaderRow>
+                        <HeaderRow></HeaderRow>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var player in team)
                     {
                         <tr>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500"><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.PlayerName.FirstOrDefault().Description
-                            </td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.RealPositionLocalized.First().Description</td>
-                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.country</td>
-                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
-                                    <button @onclick="() => RemovePlayer(player)"
-                                        class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
-                                        + Remove
-                                    </button>
-                                </td>
+                            <BodyRow><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></BodyRow>
+                            <BodyRow>@player.PlayerName.FirstOrDefault().Description</BodyRow>
+                            <BodyRow>@player.RealPositionLocalized.First().Description</BodyRow>
+                            <BodyRow>@player.Country</BodyRow>
+                            <BodyRow>
+                                <Button OnClick="() => RemovePlayer(player)">- Remove</Button>
+                            </BodyRow>
                         </tr>
                     }
                 </tbody>
-            </table>
+            </Table>
         }
     </div>
 </div>
 
 @code {
-    public class Stat {
-        public string stat {get;set;}
-        public int count{get;set;}
-    }
-
     public class LocalizedString {
         public string Locale {get;set;}
         public string Description {get;set;}
@@ -122,23 +106,16 @@
         public int IdPlayer {get;set;}
         public LocalizedString[] PlayerName {get;set;}
         public LocalizedString[] RealPositionLocalized {get;set;}
-        public decimal height {get;set;}
-        public decimal weight {get;set;}
-        public decimal number {get;set;}
-        public string birthday {get;set;}
-        public Stat[] stats {get;set;}
         public PlayerPicture PlayerPicture {get;set;}
-        public string? country {get;set;}
+        public string? Country {get;set;}
     }
 
     public class TeamObject {
-        public string id {get;set;}
         public LocalizedString[] TeamName {get;set;}
-        public string code {get;set;}
-        public Player[] players {get;set;}
+        public Player[] Players {get;set;}
     }
 
-    private TeamObject[] AllTeams = new TeamObject[32];
+    private List<TeamObject> AllTeams = new();
     private List<Player> team = new();
     private Dictionary<string, string> teams = new Dictionary<string, string>(){
         {"argentina", "1884881"},
@@ -195,25 +172,24 @@
 
     protected override async Task OnInitializedAsync()
     {
-        var index = 0;
-        foreach(var team in teams) {
-            AllTeams[index] = await Http.GetFromJsonAsync<TeamObject>($"https://api.fifa.com/api/v3/teams/{team.Value}/squad?idCompetition=103&idSeason=285026&language=en");
-            index++;
-        }
+        var teamsFromApi = await Task.WhenAll(teams.Select(team => Http.GetFromJsonAsync<TeamObject>($"https://api.fifa.com/api/v3/teams/{team.Value}/squad?idCompetition=103&idSeason=285026&language=en")));
+        AllTeams.AddRange(teamsFromApi.ToArray());
     }
 
     private void AddPlayer(Player player, string country)
     {
-        if (!team.Any(x => x.IdPlayer == player.IdPlayer)) {
+        if (!team.Any(x => x.IdPlayer == player.IdPlayer))
+        {
             Player newPlayer = player;
-            newPlayer.country = country;
+            newPlayer.Country = country;
             team.Add(newPlayer);
         }
     }
 
     private void RemovePlayer(Player player)
     {
-        if (team.Any(x => x.IdPlayer == player.IdPlayer)) {
+        if (team.Any(x => x.IdPlayer == player.IdPlayer))
+        {
             team.Remove(player);
         }
     }
