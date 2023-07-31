@@ -48,7 +48,7 @@
                                 <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.RealPositionLocalized.First().Description</td>
                                 <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@team.TeamName.First().Description</td>
                                 <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
-                                    <button @onclick="() => AddPlayer(player)"
+                                    <button @onclick="() => AddPlayer(player, team.TeamName.First().Description)"
                                         class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
                                         + Add
                                     </button>
@@ -75,8 +75,9 @@
                     <tr class="bg-slate-900">
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
                         <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Name</th>
-                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position
-                        </th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Position</th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left">Country</th>
+                        <th class="border-b border-slate-700 font-medium p-4 pl-8 pb-3 text-slate-400 text-left"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -87,6 +88,13 @@
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.PlayerName.FirstOrDefault().Description
                             </td>
                             <td class="border-b border-slate-100 p-4 pl-8 text-slate-500">@player.RealPositionLocalized.First().Description</td>
+                            <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">@player.country</td>
+                                <td class="border-b border-slate-100 p-4 pl-8 text-slate-900">
+                                    <button @onclick="() => RemovePlayer(player)"
+                                        class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
+                                        + Remove
+                                    </button>
+                                </td>
                         </tr>
                     }
                 </tbody>
@@ -120,6 +128,7 @@
         public string birthday {get;set;}
         public Stat[] stats {get;set;}
         public PlayerPicture PlayerPicture {get;set;}
+        public string? country {get;set;}
     }
 
     public class TeamObject {
@@ -193,10 +202,19 @@
         }
     }
 
-    private void AddPlayer(Player player)
+    private void AddPlayer(Player player, string country)
     {
         if (!team.Any(x => x.IdPlayer == player.IdPlayer)) {
-            team.Add(player);
+            Player newPlayer = player;
+            newPlayer.country = country;
+            team.Add(newPlayer);
+        }
+    }
+
+    private void RemovePlayer(Player player)
+    {
+        if (team.Any(x => x.IdPlayer == player.IdPlayer)) {
+            team.Remove(player);
         }
     }
 }
