@@ -61,11 +61,11 @@
                 @foreach (var player in dreamTeamPlayers)
                 {
                     <tr>
-                        <BodyCell><img class="h-40" src="@player.PlayerPicture.PictureUrl" /></BodyCell>
+                        <BodyCell><img class="w-28" src="@player.PlayerPicture.PictureUrl" /></BodyCell>
                         <BodyCell>@player.PlayerName.First().Description</BodyCell>
                         <BodyCell>@player.RealPositionLocalized.First().Description</BodyCell>
                         <BodyCell>@player.Country</BodyCell>
-                        <BodyCell><Button OnClick="() => RemovePlayer(player)">- Remove</Button></BodyCell>
+                        <BodyCell><Button OnClick="() => RemovePlayer(player)">🗑 Remove</Button></BodyCell>
                     </tr>
                 }
             </tbody>
