@@ -18,7 +18,7 @@
                     @bind:event="oninput">
             </div>
         </div>
-        @if (nzTeam == null)
+        @if (AllTeams == null)
         {
             <p><em>Loading...</em></p>
         }
@@ -56,7 +56,6 @@
                             </tr>
                         }
                     }
-                    
                 </tbody>
             </table>
         }
@@ -97,10 +96,9 @@
 </div>
 
 @code {
-    
     public class Stat {
-    public string stat {get;set;}
-    public int count{get;set;}
+        public string stat {get;set;}
+        public int count{get;set;}
     }
 
     public class LocalizedString {
@@ -113,26 +111,25 @@
     }
 
     public class Player {
-    public int IdPlayer {get;set;}
-    public LocalizedString[] PlayerName {get;set;}
-    public LocalizedString[] RealPositionLocalized {get;set;}
-    public decimal height {get;set;}
-    public decimal weight {get;set;}
-    public decimal number {get;set;}
-    public string birthday {get;set;}
-    public Stat[] stats {get;set;}
-    public PlayerPicture PlayerPicture {get;set;}
+        public int IdPlayer {get;set;}
+        public LocalizedString[] PlayerName {get;set;}
+        public LocalizedString[] RealPositionLocalized {get;set;}
+        public decimal height {get;set;}
+        public decimal weight {get;set;}
+        public decimal number {get;set;}
+        public string birthday {get;set;}
+        public Stat[] stats {get;set;}
+        public PlayerPicture PlayerPicture {get;set;}
     }
 
     public class TeamObject {
-    public string id {get;set;}
-    public LocalizedString[] TeamName {get;set;}
-    public string code {get;set;}
-    public Player[] players {get;set;}
+        public string id {get;set;}
+        public LocalizedString[] TeamName {get;set;}
+        public string code {get;set;}
+        public Player[] players {get;set;}
     }
 
     private TeamObject[] AllTeams = new TeamObject[32];
-    private TeamObject nzTeam;
     private List<Player> team = new();
     private Dictionary<string, string> teams = new Dictionary<string, string>(){
         {"argentina", "1884881"},
@@ -194,8 +191,6 @@
             AllTeams[index] = await Http.GetFromJsonAsync<TeamObject>($"https://api.fifa.com/api/v3/teams/{team.Value}/squad?idCompetition=103&idSeason=285026&language=en");
             index++;
         }
-        
-        nzTeam = await Http.GetFromJsonAsync<TeamObject>($"https://api.fifa.com/api/v3/teams/{teams["new-zealand"]}/squad?idCompetition=103&idSeason=285026&language=en");
     }
 
     private void AddPlayer(Player player)
