@@ -7,6 +7,7 @@
         "aspnetcorerazor": "html"
     },
     "files.associations": {
-        "*.cshtml": "html"
+        "*.cshtml": "html",
+        "*.cs": "csharp"
     }
 }
