@@ -1,0 +1,12 @@
+<button @onclick="@OnClick"
+    class="px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm hover:bg-cyan-400 hover:shadow-lg transition hover:scale-110 ">
+    @ChildContent
+</button>
+                                
+@code {
+	[Parameter]
+	public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs> OnClick { get; set; }
+}
