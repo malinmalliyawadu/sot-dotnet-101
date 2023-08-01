@@ -12,8 +12,8 @@
             <div class="form-group items-end">
                 <input class="rounded-full drop-shadow-lg border-slate-600 pl-5 bg-opacity-40 bg-white"
                     type="text"
-                    placeholder="Filter..."
-                    @bind="filter"
+                    placeholder="Search..."
+                    @bind="search"
                     @bind:event="oninput">
             </div>
         </div>
@@ -75,7 +75,7 @@
 </div>
 
 @code {
-    private string filter { get; set; }
+    private string search { get; set; }
     private List<Team> allTeams = new();
     private List<Player>  dreamTeamPlayers = new();
 
@@ -106,16 +106,16 @@
 
     public bool IsVisible(Player player)
     {
-        if (string.IsNullOrEmpty(filter))
+        if (string.IsNullOrEmpty(search))
             return true;
     
-        if (player.PlayerName.First().Description.Contains(filter, StringComparison.OrdinalIgnoreCase))
+        if (player.PlayerName.First().Description.Contains(search, StringComparison.OrdinalIgnoreCase))
             return true;
 
-        if (player.RealPositionLocalized.First().Description.Contains(filter, StringComparison.OrdinalIgnoreCase))
+        if (player.RealPositionLocalized.First().Description.Contains(search, StringComparison.OrdinalIgnoreCase))
             return true;
 
-        if (player.Country.Contains(filter, StringComparison.OrdinalIgnoreCase))
+        if (player.Country.Contains(search, StringComparison.OrdinalIgnoreCase))
             return true;
 
         return false;
