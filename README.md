@@ -2,12 +2,12 @@
 
 ## 👋 Introduction
 
-Welcome to the Summer of Tech .NET 101 Bootcamp! This bootcamp is designed to give you a taste of what it's like to be a .NET developer. You'll learn the basics of C#, the .NET runtime, and the Blazor framwork. You'll also learn how to use Visual Studio Code, a popular IDE for .NET development.
+Welcome to the Summer of Tech .NET 101 Bootcamp! This bootcamp is designed to give you a taste of what it's like to be a .NET developer. You'll learn the basics of C#, the .NET runtime, and the Blazor framework. You'll also learn how to use Visual Studio Code, a popular IDE for .NET development.
 
 ## 🌱 Prerequisites
 
-- .NET 7.0 SDK: https://dotnet.microsoft.com/download/dotnet/7.0
-- Visual Studio Code: https://code.visualstudio.com/
+- .NET 7.0 SDK https://dotnet.microsoft.com/download/dotnet/7.0
+- Visual Studio Code https://code.visualstudio.com/
 
 ## ⚡ Getting Started
 
