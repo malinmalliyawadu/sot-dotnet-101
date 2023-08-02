@@ -1,6 +1,7 @@
 name: Deploy to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -23,15 +24,15 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 7.0.x
-          
+
       # Publishes Blazor project to the release-folder
       - name: Publish .NET Project
         run: dotnet publish FifaTeamMaker/FifaTeamMaker.csproj -c Release -p:GHPages=true -o dist/Web --nologo
-        
+
       # changes the base-tag in index.html from '/' to 'sot-dotnet-101' to match GitHub Pages repository subdirectory
       - name: Change base-tag in index.html from / to sot-dotnet-101
         run: sed -i 's/<base href="\/" \/>/<base href="\/sot-dotnet-101\/" \/>/g' dist/Web/wwwroot/index.html
-    
+
       # copy index.html to 404.html to serve the same file when a file is not found
       - name: Copy index.html to 404.html
         run: cp dist/Web/wwwroot/index.html dist/Web/wwwroot/404.html
@@ -39,7 +40,7 @@ jobs:
       # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
       - name: Add .nojekyll file
         run: touch dist/Web/wwwroot/.nojekyll
-      
+
       # Deploys the built app to GitHub Pages
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
